@@ -12,3 +12,6 @@ Predict if a heart beat from the first ECG signal has an arrhythmia for each 6 s
 
 To simplify the problem, we will assume that a QRS detector is capable of automatically identifying the peak of each heart beat. We will ignore any non-beat annotations and any heart beats in the first or last 3 seconds of the recording due to reduced data. We will use a window of 6 seconds so we can compare the current beat to beats just before and after. This decision was based after
 talking to a physician who said it is easier to identify if you have something to compare it to.
+
+# Below are some ss from the project
+![Sample clips](/repository/Arrythmia Project/Screenshot 2023-06-14 at 10.43.17 PM.png?raw=true "Visualisations and Accuracy title")
